@@ -51,12 +51,31 @@ https://deviceatlas.com/blog/most-used-smartphone-screen-resolutions#us
     .menu {
         background: var(--background); 
         position: static;
-        /*z-index: 20;*/
         width: auto;
         height:auto;
         display: flex;
         margin-top: 5px;
     }
 } 
-
-
+.big-hero h2{
+    color:white;
+}
+.big-hero{
+    background: var(--background);
+    padding: 0%;
+    margin-bottom:0%;
+}
+.green-area p{
+    color:white;
+}
+.green-area h2, h3{
+    color: white;
+}
+.green-area{
+    background-color: #0AC693;
+}
+.post article img{
+    height: 150 px;
+    width: 100%;
+    object-fit: cover;
+}
