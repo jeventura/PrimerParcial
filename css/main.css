@@ -73,9 +73,42 @@ https://deviceatlas.com/blog/most-used-smartphone-screen-resolutions#us
 }
 .green-area{
     background-color: #0AC693;
+    padding: 0px;
+    margin-top: 0px;
 }
 .post article img{
     height: 150 px;
     width: 100%;
+    /*para mantener el aspect ratio de la foto*/
     object-fit: cover;
+}
+/*cambiando el formato del formulario*/
+.contact-form input{
+    border-radius:  0px 10px;
+    width: 100%;
+}
+.contact-form textarea{
+    border-radius: 0px 10px;
+    width: 100%;
+
+}
+.contact-form{
+    color: white;
+
+}
+.contact-form input[type=submit]{
+    background-color: brown;
+}
+.contact{
+    background: var(--background);
+}
+.about h2{
+    color: white;
+}
+.about p{
+    color:white;
+}
+.about {
+    background:var(--background);
+
 }
