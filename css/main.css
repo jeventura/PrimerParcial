@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+:root  {
+    --background : rgba(17, 41, 53, 1);
+   margin: 0px;
+/*añadiendo color de fondo para verificar cada area trabajada*/
+}
+body{
+    margin:0%;
+    background: var(--background);
+    font-family:'Monserrat', sans-serif;
+    text-align:center;
+}
